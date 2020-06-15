@@ -1,0 +1,174 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!--
+    <meta charset="utf-8" name="viewport" content="width=device-width, 
+          initial-scale=1.0, minimum-scale=1.0,user-scalable=no" />
+    -->
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title></title>
+        
+    <style>
+
+        * { margin:0; padding:0; }
+        body { font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        li { list-style:none; }
+        a { text-decoration:none; }
+
+        #header {
+            height:100px;
+            background-color:#ff9c00;
+        }
+
+        #header .logo_wrap {
+            height:50px;
+            text-align:center;
+            line-height:50px;
+            position:relative;
+        }
+
+        #header .logo_wrap a {
+            display:inline-block;
+        }
+
+        #header .logo_wrap .menu { position:absolute; left:10px; }
+        #header .logo_wrap .logo { color:#ffffff; font-size:1.3em; font-weight:bold; }
+        #header .logo_wrap .myinfo { position:absolute; right:10px; }
+
+        #header #search { position:relative; overflow:hidden; width:100%; height:50px; }
+        #header #search input { float:left; width:100%; height:50px; border:5px solid #ea8f00; box-sizing:border-box; padding:5px; font-size:1.2em; }
+        #header #search img { float:left; position:absolute; right:0; top:0; }
+
+
+        #lnb ul { overflow:hidden; margin:7px 0; }
+        #lnb ul li{
+            width:16.6%; height:30px; line-height:30px; text-align:center;
+            float:left; margin:0; padding:0; border-right:1px solid #cccccc; box-sizing:border-box;
+        }
+
+        #lnb ul li:last-child { border:0; }
+
+        #section #section_content_01 { overflow:hidden; }
+        #section #section_content_01 .row1 div{ width:50%; height:135px; line-height:100px; text-align:center; float:left; border:2px solid #ffffff; box-sizing:border-box; }
+        #section #section_content_01 .row1 div:last-child { float:right; }
+        #section #section_content_01 .row2 div{ width:50%; height:135px; line-height:100px; text-align:center; float:left; border:2px solid #ffffff; box-sizing:border-box; }
+        #section #section_content_01 .row2 div:last-child { float:right; }
+        #section #section_content_01 .row3 div{ width:50%; height:135px; line-height:100px; text-align:center; float:left; border:2px solid #ffffff; box-sizing:border-box; }
+        #section #section_content_01 .row3 div:last-child { float:right; }
+        #section #section_content_01 img { width:100%; height:inherit; }
+
+        #section #section_content_02 { overflow:hidden; margin-top:10px; }
+        #section #section_content_02 ul li { padding:8px; border-bottom:1px solid #cccccc; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+
+        #section #section_content_03 { margin-top:10px; }
+        #section #section_content_03 ul li { overflow:hidden; margin:10px; padding:10px; border:1px solid #cccccc; box-sizing:border-box; }
+        #section #section_content_03 .img { float:left; width:100px; height:100px; }
+        #section #section_content_03 .txt { float:left; width:400px; height:100px; }
+        #section #section_content_03 .txt span { display:block; margin-left:5px; }
+        #section #section_content_03 .txt span:first-child { font-size:1.1em; color:#0d5a9c; font-weight:bold; }
+        #section #section_content_03 .txt span:last-child { color:#464646; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+        
+        #footer p { text-align:center; padding:5px; }
+
+    </style>
+
+</head>
+<body>
+
+    <header id="header">
+        <div id="header_wrap">
+            <div class="logo_wrap">
+                <a class="menu" href="#none" alt="menu"><img src="img/menu.png" /></a>
+                <a class="logo" href="#none" alt="logo">mobile logo</a>
+                <a class="myinfo" href="#none" alt="myinfo"><img src="img/myinfo.png" /></a>
+            </div>
+        </div>
+
+        <div id="search">
+            <input type="text" />
+            <a href="#none"><img src="img/search.png" /></a>
+        </div>
+
+    </header>
+
+    <div id="lnb">
+        <ul>
+            <li><a href="#none">lnb1</a></li>
+            <li><a href="#none">lnb2</a></li>
+            <li><a href="#none">lnb3</a></li>
+            <li><a href="#none">lnb4</a></li>
+            <li><a href="#none">lnb5</a></li>
+            <li><a href="#none">lnb6</a></li>
+        </ul>
+    </div>
+
+    <section id="section">
+
+        <div id="section_content_01">
+            <div class="row1">
+                <div><img src="http://www.sba.seoul.kr/kr/images/index/visual16.jpg"></div>
+                <div><img src="http://www.sba.seoul.kr/kr/images/index/visual15.jpg" /></div>
+            </div>
+            <div class="row2">
+                <div><img src="http://www.sba.seoul.kr/kr/images/index/visual14.jpg"></div>
+                <div><img src="http://www.sba.seoul.kr/kr/images/index/visual13.jpg"></div>
+            </div>
+            <div class="row3">
+                <div><img src="http://www.sba.seoul.kr/kr/images/index/visual12.jpg"></div>
+                <div><img src="http://www.sba.seoul.kr/kr/images/index/visual1.jpg"></div>
+            </div>
+        </div>
+
+        <div id="section_content_02">
+            <ul>
+                <li><a href="#none">중소기업 지원업무의 전문성과 효율성을 확보하고 중소기업에 대한 기술, 경영, 인력 등의 종합지원체계를 구축함으로써 중소기업의 경쟁력 제고를 위해 설립된 서울산업진흥원은 중소기업의자생력을 키우고 안정적인 경영여건을 조성하기 위하여 끊임없이 노력하고 있습니다. </a></li>
+                <li><a href="#none">서울산업진흥원은 서울특별시에 소재하고 있는 중소기업에 대한 종합적이고 체계적인 지원사업을 통하여 중소기업의 경영여건 개선과 경쟁력강화에 기여함을 목적으로 지역균형개발 및 지방중소기업육성에 관한 법률 제49조와 동법 시행령 제63조, 민법 제3장 및 서울산업진흥원 설립운영조례에 따라 설립되었습니다. </a></li>
+                <li><a href="#none">K-패션 오사카 2014 추진 관련 업무 협력 </a></li>
+                <li><a href="#none">KBS미디어와 형설EMJ가 구축한 이러닝 콘텐츠 교육포털사이트[KBS 방송아카데미 온라인 평생교육원] 에 e창업스쿨 콘텐츠 제공 </a></li>
+                <li><a href="#none">서울지역 중소기업 육성 및 청년일자리 창출을 위한 협력 등 </a></li>
+            </ul>
+        </div>
+
+        <div id="section_content_03">
+            <ul>
+                <li>
+                    <p class="img"><a href="#none"><img src="img/100img.png" /></a></p>
+                    <p class="txt">
+                        <a href="#none">
+                            <span>서울산업진흥원</span>
+                            <span>중소기업 지원업무의 전문성과 효율성을 확보하고 중소기업에 대한 기술, 경영, 인력 등의 종합지원체계를</span>
+                        </a>
+                    </p>
+                </li>
+                <li>
+                    <p class="img"><a href="#none"><img src="img/100img.png" /></a></p>
+                    <p class="txt">
+                        <a href="#none">
+                            <span>서울산업진흥원</span>
+                            <span>중소기업 지원업무의 전문성과 효율성을 확보하고 중소기업에 대한 기술, 경영, 인력 등의 종합지원체계를</span>
+                        </a>
+                    </p>
+                </li>
+                <li>
+                    <p class="img"><a href="#none"><img src="img/100img.png" /></a></p>
+                    <p class="txt">
+                        <a href="#none">
+                            <span>서울산업진흥원</span>
+                            <span>중소기업 지원업무의 전문성과 효율성을 확보하고 중소기업에 대한 기술, 경영, 인력 등의 종합지원체계를</span>
+                        </a>
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div id="footer_wrap">
+            <p><img src="http://www.sba.seoul.kr/kr/images/footer/f_logo.png" alt="서울산업진흥원"></p>
+            <p>121-904 서울 마포구 월드컵북로 400(상암동)</p>
+        </div>
+    </footer>
+</body>
+</html>
